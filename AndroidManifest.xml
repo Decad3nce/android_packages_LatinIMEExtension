@@ -17,7 +17,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         package="com.android.inputmethod.latin.extension">
 
-    <application android:label="@string/cm_latin_extension"
+    <application
+            android:hasCode="false"
+            android:label="@string/cm_latin_extension"
             android:icon="@mipmap/ic_launcher">
 
         <!-- This gets parsed by LatinIME-->
