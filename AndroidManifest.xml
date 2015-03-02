@@ -25,7 +25,6 @@
         <!-- This gets parsed by LatinIME-->
         <meta-data
                 android:name="@string/english_ime_extension_name"
-                android:resource="@array/external_dicts"
                 android:value="@string/cm_latin_extension" />
 
     </application>
